@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Odometer from "./components/Odometer";
 import MalarkeyLogo from './img/malarkey-logo.svg';

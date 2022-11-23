@@ -78,6 +78,7 @@ import React from 'react';
         }
 
         tick();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [direction, target]);
 
     /** 

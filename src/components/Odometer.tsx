@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import RollingNumber from "./RollingNumber";
 
 import './Odometer.scss';
@@ -18,7 +18,7 @@ export default function Odometer({value = 0, maxValue = 0}:{value: number; maxVa
     useEffect(() => {
         setStart(target);
         setTarget(Math.max(0, Math.min(value, maxValue)));
-    }, [value, maxValue]);
+    }, [value, maxValue, target]);
 
     function getDirection() {
         if (target > start) {
