@@ -31,9 +31,10 @@
   },
   "include": [
     "next-env.d.ts",
+    "components/odometer.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/components/Odometer.jsx"  ],
   "exclude": [
     "node_modules"
   ]
