@@ -45,7 +45,7 @@ function App() {
 			);
 		}, 1000);
 		return () => clearInterval(refreshInterval);
-	}, [currentBag, currentTire, currentTree]);
+	}, [currentBag, currentTire, currentTree, timeDelta]);
 
 	function digitHack(num) {
 		// odometerjs doesn't like trailing zeros, so we're going to fake it
